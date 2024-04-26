@@ -1,0 +1,4 @@
+{
+    "test": "SELECT * FROM productos",
+    "query_list_maestras": "SELECT B.nmdato,B.cddato, B.dsdato,B.nmmaestro,B.cdestado,B.dtfechacreacion,B.dtfechamodificacion,B.cdusuario FROM tarp_maestras A   INNER JOIN     tarp_data_maestras B ON A.nmmaestro=B.nmmaestro WHERE A.cdmaestro  =?  "
+}
